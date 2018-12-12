@@ -1,6 +1,7 @@
 import React from 'react';
 import Home from './Home';
 import Nav from './partials/Nav';
+import Footer from './partials/Footer';
 
 class App extends React.Component {
     render() {
@@ -8,6 +9,7 @@ class App extends React.Component {
             <div>
                 <Nav />
                 <Home />
+                <Footer />
             </div>
         )
     }

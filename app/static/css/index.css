@@ -1,6 +1,8 @@
+/*Table of Content*/
 body {
   background: #69b3ee;
-  padding: 8px; }
+  padding: 4px;
+  text-align: center; }
   body::-webkit-scrollbar {
     width: 3px;
     border-radius: 3px; }
@@ -11,5 +13,11 @@ body {
     border-radius: 3px; }
   body::-webkit-scrollbar-thumb:hover {
     background: #69b3ee; }
+
+/*header*/
+nav {
+  background: #fffff6e6;
+  height: 50px;
+  border-radius: 3px; }
 
 /*# sourceMappingURL=index.css.map */
