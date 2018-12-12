@@ -3,9 +3,9 @@ import React from 'react';
 class Home extends React.Component {
     render() {
         return (
-            <div>
+            <section className="tgm-page-body">
                 
-            </div>
+            </section>
         )
     }
 }

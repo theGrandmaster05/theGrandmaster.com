@@ -6,7 +6,7 @@ import Footer from './partials/Footer';
 class App extends React.Component {
     render() {
         return (
-            <div>
+            <div className="tgm-page-container">
                 <Nav />
                 <Home />
                 <Footer />
