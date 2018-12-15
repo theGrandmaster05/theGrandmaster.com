@@ -1,7 +1,8 @@
 /*Table of Content*/
 body {
   background: #69b3ee;
-  padding: 4px; }
+  padding: 0;
+  overflow-x: hidden; }
   body::-webkit-scrollbar {
     width: 3px;
     border-radius: 3px; }
@@ -13,6 +14,11 @@ body {
   body::-webkit-scrollbar-thumb:hover {
     background: #69b3ee; }
 
+svg.tgm-search-lens {
+  position: absolute;
+  right: 0 !important;
+  top: 10px !important; }
+
 /*navigation*/
 nav {
   background: #fffff6e6;
@@ -20,8 +26,11 @@ nav {
   border-radius: 3px;
   box-shadow: -0.7px 3px 5px #cfe1e4;
   padding: 5px 7px; }
+  nav div.tgm-nav-container {
+    max-width: 1200px; }
   nav svg {
-    padding-top: 5px; }
+    padding-top: 5px;
+    width: 340px; }
 
 /*page body*/
 div.tgm-page-container {
