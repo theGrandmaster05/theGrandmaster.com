@@ -1,11 +1,12 @@
 import React from 'react';
+import Nav from './partials/Nav';
 
 class Home extends React.Component {
     render() {
-        return (
-            <section className="tgm-page-body">
-                
-            </section>
+        return(
+            <div>
+                <Nav />
+            </div>
         )
     }
 }
