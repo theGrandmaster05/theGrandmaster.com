@@ -5,5 +5,5 @@ import './static/css/index.css';
 
 ReactDOM.render(
     <App />,
-    document.getElementById('app')
-);
+    document.querySelector('#app')
+)
