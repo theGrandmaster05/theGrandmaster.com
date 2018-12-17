@@ -2,9 +2,15 @@ import React from 'react';
 
 class Blog extends React.Component {
     render() {
-        <div className="page-body">
-            Red Body
-        </div>
+        return(
+            <div className="blog-posts-page">
+                <div className="single-post">
+                    <h4 className="title">
+                        Red Head
+                    </h4>
+                </div>
+            </div>
+        )
     }
 }
 
