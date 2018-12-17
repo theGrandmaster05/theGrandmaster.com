@@ -8,10 +8,10 @@ class Nav extends React.Component {
 					<svg className="menu">
 						<g>
 							<line x1="10" y1="2" x2="16" y2="2" stroke="black" strokeWidth="2" strokeLinecap="round" />
-							<line x1="22" y1="2" x2="24" y2="2" stroke="black" strokeWidth="2" strokeLinecap="round" className="roll" />
 							<line x1="10" y1="8" x2="12" y2="8" stroke="black" strokeWidth="2" strokeLinecap="round" />
-							<line x1="18" y1="8" x2="24" y2="8" stroke="black" strokeWidth="2" strokeLinecap="round" className="roll" />
 							<line x1="10" y1="14" x2="16" y2="14" stroke="black" strokeWidth="2" strokeLinecap="round" />
+							<line x1="18" y1="8" x2="24" y2="8" stroke="black" strokeWidth="2" strokeLinecap="round" className="roll" />
+							<line x1="22" y1="2" x2="24" y2="2" stroke="black" strokeWidth="2" strokeLinecap="round" className="roll" />
 							<line x1="22" y1="14" x2="24" y2="14" stroke="black" strokeWidth="2" strokeLinecap="round" className="roll" />
 						</g>
 					</svg>
