@@ -17,7 +17,7 @@ class Nav extends React.Component {
 					</svg>
 					<svg className="search-lens">
 						<g>
-							<circle cx="20" cy="10" r="6" stroke="black" fill="none" strokeWidth="2" />
+							<circle cx="20" cy="10" r="6" stroke="black" fill="none" strokeWidth="1" />
 							<line x1="26" y1="17" x2="30" y2="22" stroke="black" strokeWidth="2" strokeLinecap="round" />
 						</g>
 					</svg>
