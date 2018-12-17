@@ -6,8 +6,9 @@ import Footer from './partials/Footer';
 class Home extends React.Component {
     render() {
         return(
-            <div>
+            <div className="app-body">
                 <Nav />
+                <Blog />
                 <Footer />
             </div>
         )

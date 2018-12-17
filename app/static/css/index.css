@@ -3,21 +3,24 @@
   background: #000000; }
 
 body {
-  background: #f5f5f5;
+  background: #4781b3;
   font-family: -apple-system, SanSerif, Cantarell, Ubuntu, Serif;
-  margin: 0 !important;
-  height: 1000px;
+  margin: 3px !important;
+  height: 100vh;
   box-sizing: border-box; }
   body::-webkit-scrollbar {
     width: 3px;
     border-radius: 3px; }
   body::-webkit-scrollbar-track {
-    background: #f5f5f5; }
+    background: #4781b3; }
   body::-webkit-scrollbar-thumb {
-    background: #000000;
+    background: #ffffff;
     border-radius: 3px; }
   body::-webkit-scrollbar-thumb:hover {
     background: #000000; }
+  body .app-body {
+    background: #f5f5f5;
+    border-radius: 2px; }
 
 div.menu-list {
   display: flex;
@@ -41,6 +44,7 @@ svg.menu {
   height: 20px;
   width: 26px;
   cursor: pointer;
+  margin-left: -8px;
   transition: 0.3s all ease-in-out; }
   svg.menu .roll {
     transition: 0.3s all ease-in-out; }
@@ -57,12 +61,34 @@ svg.search-lens {
   top: -2px;
   cursor: pointer; }
 
+.blog-posts-page {
+  max-width: 980px;
+  width: 90%;
+  height: 96vh;
+  margin: auto;
+  padding: 30px 15px; }
+  .blog-posts-page .single-post {
+    padding-top: 5px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #e6e6e6; }
+    .blog-posts-page .single-post h4.title {
+      font-weight: bolder; }
+    .blog-posts-page .single-post span.date {
+      font-weight: lighter; }
+    .blog-posts-page .single-post span.tags {
+      color: #000000;
+      font-weight: lighter;
+      font-style: italic;
+      font-width: auto;
+      font-background: #e6e6e6; }
+
 footer.footer {
   background: #f5f5f5;
   max-width: 980px;
   height: 60px;
   width: 90%;
   margin: auto;
+  border-top: 1px solid #e6e6e6;
   padding-top: 10px;
   padding-bottom: 10px; }
   footer.footer div {
