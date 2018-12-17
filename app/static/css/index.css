@@ -1,5 +1,10 @@
+::selection {
+  color: #ffffff;
+  background: #000000; }
+
 body {
   background: #f5f5f5;
+  font-family: -apple-system, SanSerif, Cantarell, Ubuntu, Serif;
   margin: 0 !important;
   height: 1000px;
   box-sizing: border-box; }
@@ -49,6 +54,23 @@ svg.search-lens {
   height: 20px;
   width: 30px;
   position: relative;
-  top: -2px; }
+  top: -2px;
+  cursor: pointer; }
+
+footer.footer {
+  background: #f5f5f5;
+  max-width: 980px;
+  height: 60px;
+  width: 90%;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+  footer.footer div {
+    float: right; }
+  footer.footer p {
+    color: grey; }
+    footer.footer p a {
+      color: #000000;
+      font-weight: bold; }
 
 /*# sourceMappingURL=index.css.map */
