@@ -95,6 +95,12 @@ svg.search-lens {
     .blog-posts-page .single-post p.snippet {
       color: grey;
       font-weight: lighter; }
+      .blog-posts-page .single-post p.snippet a {
+        transition: 0.3s all ease-in-out; }
+        .blog-posts-page .single-post p.snippet a:hover {
+          text-decoration: none;
+          transition: 0.3s all ease-in-out;
+          transform: scale(1) !important; }
 
 footer.footer {
   background: #f5f5f5;
