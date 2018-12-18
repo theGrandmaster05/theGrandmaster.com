@@ -21,6 +21,13 @@ body {
   body .app-body {
     background: #f5f5f5;
     border-radius: 2px; }
+  body a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold; }
+    body a:hover {
+      text-decoration: underline;
+      color: #4781b3; }
 
 div.menu-list {
   display: flex;
@@ -68,19 +75,26 @@ svg.search-lens {
   margin: auto;
   padding: 30px 15px; }
   .blog-posts-page .single-post {
+    max-width: 600px;
     padding-top: 5px;
     padding-bottom: 2px;
     border-bottom: 1px solid #e6e6e6; }
     .blog-posts-page .single-post h4.title {
       font-weight: bolder; }
     .blog-posts-page .single-post span.date {
-      font-weight: lighter; }
+      font-weight: lighter;
+      font-style: italic;
+      font-size: 0.9em;
+      color: #000000; }
     .blog-posts-page .single-post span.tags {
       color: #000000;
       font-weight: lighter;
       font-style: italic;
       font-width: auto;
       font-background: #e6e6e6; }
+    .blog-posts-page .single-post p.snippet {
+      color: grey;
+      font-weight: lighter; }
 
 footer.footer {
   background: #f5f5f5;
@@ -95,11 +109,5 @@ footer.footer {
     float: right; }
   footer.footer p {
     color: grey; }
-    footer.footer p a {
-      color: #000000;
-      text-decoration: none;
-      font-weight: bold; }
-      footer.footer p a:hover {
-        text-decoration: underline; }
 
 /*# sourceMappingURL=index.css.map */
